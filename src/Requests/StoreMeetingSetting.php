@@ -32,6 +32,7 @@ class StoreMeetingSetting extends PersistResource
         "authentication_option" => "nullable|string",
         "authentication_domains" => "nullable|string",
         "authentication_name" => "nullable|string",
+        "language_interpretation" => "nullable",
     ];
 
     protected $relatedResource = [
