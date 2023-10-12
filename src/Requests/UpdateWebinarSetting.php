@@ -32,6 +32,7 @@ class UpdateWebinarSetting extends PersistResource
         "authentication_option" => "nullable|string",
         "authentication_domains" => "nullable|string",
         "email_language" => "nullable|string",
+        "language_interpretation" => "nullable",
     ];
 
     protected $relatedResource = [
